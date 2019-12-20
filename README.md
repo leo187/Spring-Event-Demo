@@ -1,4 +1,4 @@
-## Spring Event Study Demo 依赖 :JDK8、Spring Boot 1.5.6
+## Spring Event Study Demo（依赖 :JDK8、Spring Boot 1.5.6）
 
 
 #### 操作：启动应用，访问http://localhost:8888/register
