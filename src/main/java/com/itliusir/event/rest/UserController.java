@@ -20,8 +20,13 @@ public class UserController {
     @Autowired
     private UserBiz userBiz;
 
-    @PostMapping("/register")
-    public String register(@RequestBody User user) throws Exception {
+    @GetMapping("/register")
+    public String register() throws Exception {
+        User user = new User();
+        user.setId("1");
+        user.setMobile("110");
+        user.setName("tom");
+        user.setPwd("123456");
         userBiz.register(user);
         return "success";
     }
