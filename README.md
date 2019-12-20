@@ -1,6 +1,6 @@
-## Spring Event Study Demo
-### 依赖 :JDK8、Spring Boot 1.5.6
-### 操作及说明
+## Spring Event Study Demo 依赖 :JDK8、Spring Boot 1.5.6
+
+
 #### 操作：启动应用，访问http://localhost:8888/register
 #### 说明：register()方法在数据入库同时会发布一个事件,CouponListener、LotteryListener、MessageListener 三个监听器监听了这个事件，收到事件后执行相应内容，三个监听者通过@Order注解排列执行顺序，值越小越先执行
 
